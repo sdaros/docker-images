@@ -14,6 +14,7 @@ RUN apt-get update \
   liblzo2-dev \
   zlib1g-dev \
   curl \
+  ca-certificates \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/
 
