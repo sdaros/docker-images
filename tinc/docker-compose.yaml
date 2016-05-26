@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+    tinc:
+    image: sdaros/tinc:1.1pre14
+    ports:
+      - "41655:42655"
+    privileged: true
+    volumes:
+      - ./tinc:/etc/tinc

@@ -1,2 +1,5 @@
 # docker-images
-Collection of docker images I use
+
+Here you will find a collection of docker images that I use.
+
+I also included example `docker-compose.yaml` files for each image.
